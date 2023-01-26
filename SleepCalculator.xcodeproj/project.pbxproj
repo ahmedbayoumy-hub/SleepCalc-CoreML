@@ -11,6 +11,7 @@
 		02CDBBCD2982FB6F00F7DCF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CDBBCC2982FB6F00F7DCF2 /* ContentView.swift */; };
 		02CDBBCF2982FB7100F7DCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CDBBCE2982FB7100F7DCF2 /* Assets.xcassets */; };
 		02CDBBD22982FB7100F7DCF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CDBBD12982FB7100F7DCF2 /* Preview Assets.xcassets */; };
+		02CDBBDB2982FBF900F7DCF2 /* SleepCalculator.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 02CDBBDA2982FBF900F7DCF2 /* SleepCalculator.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02CDBBCC2982FB6F00F7DCF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02CDBBCE2982FB7100F7DCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02CDBBD12982FB7100F7DCF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02CDBBDA2982FBF900F7DCF2 /* SleepCalculator.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = SleepCalculator.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		02CDBBC92982FB6F00F7DCF2 /* SleepCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				02CDBBDA2982FBF900F7DCF2 /* SleepCalculator.mlpackage */,
 				02CDBBCA2982FB6F00F7DCF2 /* SleepCalculatorApp.swift */,
 				02CDBBCC2982FB6F00F7DCF2 /* ContentView.swift */,
 				02CDBBCE2982FB7100F7DCF2 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02CDBBCD2982FB6F00F7DCF2 /* ContentView.swift in Sources */,
+				02CDBBDB2982FBF900F7DCF2 /* SleepCalculator.mlpackage in Sources */,
 				02CDBBCB2982FB6F00F7DCF2 /* SleepCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
